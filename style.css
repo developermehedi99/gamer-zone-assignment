@@ -1,77 +1,209 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
- 
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.main-icon{
+img{
+    max-width: 100%;
+}
+
+.main-icon {
     width: 80.041px;
-height: 40px;
-flex-shrink: 0;
+    height: 40px;
+    flex-shrink: 0;
 }
 
 /* header section */
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 42px 0 44px 0;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
-.header-left{
+
+.header-left {
     display: flex;
     align-items: center;
 }
-.header-left h4{
-color: #0B0223;;
-font-size: 45px;
-font-weight: 700;
-margin-left: 20px;
+
+.header-left h4 {
+    color: #0B0223;
+    ;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
 }
-.header span{
-color: #ff42a5;
+
+.header span {
+    color: #ff42a5;
 }
+
 .header-right ul {
     display: flex;
     align-items: center;
 }
-.header-right ul li{
+
+.header-right ul li {
     list-style: none;
     margin-right: 30px;
 
 }
-.header-right ul li a{
+
+.header-right ul li a {
     color: #3C354F;
-text-align: center;
-font-size: 18px;
-font-weight: 500;
-}
-.header-right button{
-    color: #3C354F;
-text-align: center;
-font-size: 18px;
-font-weight: 500;
-    padding: 18px 23px;
-    border-radius: 8px;
-background: rgba(11, 2, 35, 0.10);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.youtube-icon{
-    width: 32.916px;
-height: 24px;
-flex-shrink: 0;
-color: #F61C0D;
+.header-right button {
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 23px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
 }
-.tiktok-icon{
+
+.youtube-icon {
+    width: 32.916px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #F61C0D;
+}
+
+.tiktok-icon {
     width: 24px;
-height: 24px;
-flex-shrink: 0;
-color: #08FFF9;
+    height: 24px;
+    flex-shrink: 0;
+    color: #08FFF9;
+}
+
+/* banner section */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 66px;
+    margin-top: 19px;
+}
+
+.banner-content h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-content h1 {
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-content ul li {
+    color: #534C64;
+    font-size: 20px;
+    text-transform: lowercase;
+    list-style: none;
+    margin: 16px 0;
+}
+
+.banner-content i {
+    color: #ff42a5;
+    margin-right: 10px;
+}
+
+i.thrd.fa-solid.fa-child {
+    color: #0B0223;
+}
+
+.banner-content button {
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    margin-top: 40px;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+button.btn-second {
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.banner-img img {
+    width: 600px;
+}
+
+/* we are gammer section ontional */
+
+
+/* online game section */
+.online-game{
+    padding: 120px 0;
+}
+.online-game .title{
+    color: #0B0223;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+}
+.online-game span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-game .description{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 12px 0 45px 0;
+}
+
+.card{
+    display: flex;
+    gap: 22px;
+}
+.box img{
+    border-radius: 16px;
+    height: 360px;
+    width: 454px;
+}
+.box p{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+padding: 22px 0;
 }
