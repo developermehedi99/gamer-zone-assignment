@@ -14,7 +14,8 @@
 a {
     text-decoration: none;
 }
-img{
+
+img {
     max-width: 100%;
 }
 
@@ -167,97 +168,229 @@ button.btn-second {
 
 
 /* online game section */
-.online-game{
+.online-game {
     padding: 120px 0;
 }
-.online-game .title{
+
+.online-game .title {
     color: #0B0223;
-text-align: center;
-font-size: 48px;
-font-weight: 700;
-}
-.online-game span{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-}
-.online-game .description{
-    color: #534C64;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-padding: 12px 0 45px 0;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
 }
 
-.card{
+.online-game span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-game .description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 12px 0 45px 0;
+}
+
+.card {
     display: flex;
     gap: 22px;
 }
-.box img{
+
+.box img {
     border-radius: 16px;
     height: 360px;
     width: 454px;
 }
-.box p{
+
+.box p {
     color: #534C64;
-font-size: 20px;
-font-weight: 500;
-line-height: 30px;
-padding: 22px 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding: 22px 0;
 }
 
- /* play instantly and 2img section */
+/* play instantly and 2img section */
 
- .play-instantly{
+.play-instantly {
     display: flex;
     align-items: center;
- }
- .play-contant{
-    margin-right: 115px;
- 
- }
-.play-contant h1{
-    text-align: right;
-font-size: 48px;
-font-weight: 700;
-line-height: 60px;
-color: #0B0223;
-}
-.play-contant .span-1{
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
 }
 
-.play-contant p{
-    color: #534C64;
-text-align: right;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-width: 353px;
-padding-top: 24px;
+.play-contant {
+    margin-right: 115px;
+
 }
-.play-img{
+
+.play-contant h1 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #0B0223;
+}
+
+.play-contant .span-1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-contant p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 353px;
+    padding-top: 24px;
+}
+
+.play-img {
     position: relative;
     margin-left: 155px;
 }
 
-.play-img .img-1{
+.play-img .img-1 {
     width: 575.833px;
-height: 600px;
-border-radius: 8px;
+    height: 600px;
+    border-radius: 8px;
 }
-.play-img .img-2{
+
+.play-img .img-2 {
     width: 300.5px;
-height: 345.083px;
-flex-shrink: 0;
-border-radius: 8px;
-position: absolute;
-top: 322px;
-left: -138px;
+    height: 345.083px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    position: absolute;
+    top: 322px;
+    left: -138px;
+}
+
+/* career section optional */
+
+/* game category section */
+.game-category {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+
+.game {
+    display: flex;
+    align-items: center;
+    margin: 33px 20px;
+    border: none;
+    transition: .5s;
+    padding: 4px;
+}
+
+.game:hover {
+    border: 1px solid goldenrod;
+    border-radius: 50px;
+    background: #FFF;
+    
+    color: red;
+}
+
+.game img {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.game h3 {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+.game h3:hover{
+    color: red;
+}
+
+/* footer section */
+.footer{
+    background: #0B0223;
+    padding: 125px 0;
+    text-align: center;
+
+}
+.footer-fast{
+    display: flex;
+    
+}
+.footer-fast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-fast h4 {
+    color: #ffffff;
+    ;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.footer-fast span {
+    color: #ff42a5;
+}
+
+.footer-second ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-second ul li{
+    list-style: none;
+    padding: 50px 40px;
+}
+.footer-second ul li a{
+    color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+
+.footer-third ul, .footer-four ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-third ul li, .footer-four ul{
+    list-style: none;
+   
+}
+.footer-third ul li i{
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 35px;
+    padding-right: 40px;
+
+}
+.footer-four ul li a{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+padding-right: 55px;
+}
+.footer-four ul{
+    margin: 60px 0 24px 0;
+}
+.footer-end p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 500;
+padding-top: 25px;
 }
